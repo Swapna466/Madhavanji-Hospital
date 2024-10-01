@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className='head'>
-      <input type='searchbar'  className='searchbar' />
       <nav>
         <Link to="/">
           <i className="fas fa-home"></i> Home
