@@ -51,9 +51,9 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="col-12">
+          {/* <div className="col-12">
             <img src="madhavan-logo.jpg" alt="Madhavan Hospital" className="logo-header" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Locations = () => {
       <h1 className="text-center mb-4">Madhavanji Hospital Locations</h1>
       
       {/* Map Section */}
-      <section className="mb-5">
+      <section className="container my-5 mb-5">  
         <h3 className="text-center">Find Us Here:</h3>
         <div className="row justify-content-center">
           <div className="col-md-12">

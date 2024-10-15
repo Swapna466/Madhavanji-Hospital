@@ -51,16 +51,16 @@ const Header = () => {
       <div className="container-fluid">
   <div className="row align-items-center">
 
-    <div className="col-12">
+    <div className="col-md-12">
       <div className="mx-3 my-3">
         <img src="madhavanji-logo-2.jpeg" alt="Madhavanji Hospital" className="img-fluid" />
       </div>
     </div>
 
    
-    {/* <div className="col-12">
+    <div className="col-12">
       <img src="madhavan-logo.jpg" alt="Madhavan Hospital" className="logo-header" />
-    </div> */}
+    </div>
   </div>
 </div>
 

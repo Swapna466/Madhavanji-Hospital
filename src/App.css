@@ -22,6 +22,10 @@ nav {
   padding: 10px;
   float: inline-end;
 }
+.row{
+  margin-left: 25px !important;
+
+}
 
 
 nav a {
@@ -114,6 +118,9 @@ nav a:hover {
 .social-media a:hover {
   color: #0056b3; /* Darker color on hover */
 }
+.space{
+  color: #7c0213;
+}
 
 .card {
   border: 1px solid #113805;
@@ -121,6 +128,7 @@ nav a:hover {
   margin-top: 20px;
   background: #fff;
   border-radius: 20px;
+  color: #fff !important;
 }
 
 .doctor-photos {
@@ -139,10 +147,17 @@ nav a:hover {
   gap: 90px;
   justify-content: center;
 }
+.photo-grid-H {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 90px;
+  justify-content: center;
+}
+
 
 .photo-card {
-  background: #103d1b;
-  border: 1px solid #ddd;
+  background: #083614;
+  border: 1px solid #8caa07;
   border-radius: 45px;
   padding: 10px;
   text-align: center;
@@ -150,13 +165,14 @@ nav a:hover {
 }
 
 .photo-card-text {
-  background: #103d1b;
+  background: #8caa07;
   border: 1px solid #ddd;
   border-radius: 45px;
   padding: 10px;
   text-align: center;
   color: #fff;
 }
+
 
 .photo-card img {
   max-width: 100%;
@@ -171,11 +187,33 @@ nav a:hover {
   border-radius: 25%;
   margin-bottom: 10px;
 }
+.photo-card-about img {
+  /* max-width: 100%; */
+  /* height: auto; */
+  border-radius: 25%;
+  /* margin-bottom: 10px; */
+}
+
 
 .photo-card p {
   margin: 0;
   font-weight: bold;
   color: #fff;
+}
+.photo-card-H{
+    background: #083614;
+  border: 1px solid #8caa07;
+  border-radius: 45px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}.photo-card-y{
+  background: #e7d913;
+  border: 1px solid #8caa07;
+  border-radius: 45px;
+  /* padding: 10px; */
+  text-align: center;
+  color: #4119d1;
 }
 
 .logo-header{
@@ -187,6 +225,63 @@ nav a:hover {
    margin-left: 310%;
    margin-top: 2%;
  }
+ .logo-home{
+  border-radius: 50%;
+  height: 60%;
+   /* margin-top: 5%; */
+   position: absolute;
+   /* float: inline-end; */
+   /* margin-left: 310%; */
+   margin-top: 2%;
+ }
+ .head-title {
+  color: #21411c;
+  margin-left: 33%;
+  font-family: fantasy;
+  margin-bottom: 2%;
+}
+.card{
+  background-color: #103d1b  !important;
+  /* padding: 35px; */
+  border-radius: 10% !important;
+}
+.img-fluid {
+  margin: 10px !important;
+  padding: 0px;
+  /* width: 78% !important;
+   border-radius: 40%; */
+       /* border: 1px solid #ddd;
+    border-radius: 45px;
+    
+    text-align: center;
+    color: #fff; */
+
+}
+.img-fluid-Hospitals {
+  margin: 10px !important;
+  padding: 0px;
+  width: 78% !important;
+   border-radius: 40%;
+       /* border: 1px solid #ddd;
+    border-radius: 45px;
+    
+    text-align: center;
+    color: #fff; */
+
+}
+
+.our-H{
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 40px;
+}
+.lead{
+  color: #fff;
+}
+.text{
+  color: #cce014 !important;
+}
+
  .logo {
   border-radius: 50%;
   position: absolute;
@@ -235,6 +330,97 @@ nav a:hover {
   text-align: right;
 
 }
+
+/* carousal-css */
+
+.madhava-img{
+ max-width: 200px;
+ max-height: 200px;
+}
+
+/* .carousel-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+/* .mx-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+} */
+
+/* .carousel-container {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+} */
+
+/* .carousel-image {
+  width: 100%;
+  height: auto;
+} */
+
+/* .carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+} */
+
+/* .prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+} */
+
+/* .carousel-indicators {
+  text-align: center;
+  margin-top: 10px;
+} */
+
+/* .indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+} */
+
+/* .indicator.active {
+  background-color: #c41919;
+} */
+
+.our-H img {
+  transition: transform 0.7s ease-in-out; 
+  transform-origin: center center;
+}
+
+.our-H img:hover {
+  transform: scale(1.1);
+}
+.carousel-images {
+  display: flex;
+  justify-content: center; /* Center align images */
+}
+
+.madhava-img {
+  width: 200px; /* Set your desired width */
+  height: 150px; /* Set your desired height */
+  object-fit: cover; /* Ensure images cover the defined dimensions */
+  margin: 0 10px; 
+}
+
+
 
 
 

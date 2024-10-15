@@ -9,25 +9,25 @@ const Services = () => {
             <div className="card">
             <div className="photo-grid">
               <div className="photo-card-text">
-                <img src="/Allopathy.jfif" alt="Doctor 1" />
+                <img src="/allo.jpeg" alt="Doctor 1" />
                 <p>ALLOPATHY</p>
                 <h6><b>Description:</b> Doctors comforting disabled elderly patient at hospital</h6>
               </div>
 
               <div className="photo-card-text">
-                <img src="/Ayurvedha.jpg" alt="Doctor 2" />
+                <img src="/ayurveda.jpeg" alt="Doctor 2" />
                 <p>AYURVEDHA</p>
                 <h6><b>Description:</b> Doctors comforting disabled elderly patient at hospital</h6>
               </div>
 
               <div className="photo-card-text">
-                <img src="/unani.jfif" alt="Doctor 3" />
+                <img src="/unanicenter.jpeg" alt="Doctor 3" />
                 <p>UNANI</p>
                 <h6><b>Description:</b> Doctors comforting disabled elderly patient at hospital</h6>
               </div>
 
               <div className="photo-card-text">
-                <img src="/Homeopathy.jfif" alt="Doctor 3" />
+                <img src="/Homeo.jpeg" alt="Doctor 3" />
                 <p>HOMEOPATHY</p>
                 <h6><b>Description:</b> Doctors comforting disabled elderly patient at hospital</h6>
               </div>
@@ -39,19 +39,19 @@ const Services = () => {
               </div>
 
               <div className="photo-card-text">
-                <img src="/Yoga.jfif" alt="Doctor 3" />
+                <img src="/Yogacenter.jfif" alt="Doctor 3" />
                 <p>YOGA CENTER</p>
                 <h6><b>Description:</b> Doctors comforting disabled elderly patient at hospital</h6>
               </div>
 
               <div className="photo-card-text">
-                <img src="/wellnesscenter.jfif" alt="Doctor 3" />
+                <img src="/wellness.jpeg" alt="Doctor 3" />
                 <p>WELLNESS CENTER</p>
                 <h6><b>Description:</b> Doctors comforting disabled elderly patient at hospital</h6>
               </div>
 
               <div className="photo-card-text">
-                <img src="/cultural.jfif" alt="Doctor 3" />
+                <img src="/culturalcenter.jpeg" alt="Doctor 3" />
                 <p>CULTURAL CENTER</p>
                 <h6><b>Description:</b> Doctors comforting disabled elderly patient at hospital</h6>
               </div>
